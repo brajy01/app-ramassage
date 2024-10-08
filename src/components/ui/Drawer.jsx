@@ -12,7 +12,7 @@ export default function Drawer({ content }) {
   };
 
   return (
-    <div className="drawer z-50">
+    <div className="drawer z-50 mb-3">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
@@ -46,7 +46,7 @@ export default function Drawer({ content }) {
               {/* Navbar menu content here */}
               {links.map((link) => {
                 return (
-                  <li key={link.href} className="m-1">
+                  <li key={link.href} className="m-1 text-base">
                     <Link href={link.href}>{link.title}</Link>
                   </li>
                 );
