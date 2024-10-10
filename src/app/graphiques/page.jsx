@@ -1,3 +1,9 @@
+import Graph from "@/components/ui/graphiques/Graph";
+
 export default function Page() {
-  return <p>Page graphiques</p>;
+  return (
+    <>
+      <Graph />
+    </>
+  );
 }
